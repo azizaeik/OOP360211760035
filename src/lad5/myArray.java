@@ -1,5 +1,7 @@
 package lab5;
 
+import com.sun.java_cup.internal.runtime.Scanner;
+
 public class myAerray {
     public static void main(String[] args) {
 
@@ -11,13 +13,14 @@ public class myAerray {
         Scanner sc = new Scanner(System.in);
         for (int i=0;i<a.length; i++){
             System.out.print("a["+i+"]: ");
-            a[i] = sc.nexlnt();
+            switch (a[i] = sc.nexlnt()) {
+            }
         }
 
         System.out.println("data in array : ");
         for (int i=0;i<a.length;i++){
             System.out.print (a[i]+"\t");
-
+    private static  int []inputData (int)[]
         }
 
     }
