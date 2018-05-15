@@ -1,4 +1,4 @@
-package lab7;
+package lad7;
 
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
@@ -8,12 +8,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class studentApp {
+
+class StudentApp {
     public static void main(String[] args) throws IOException {
         Student s1 = new Student();
         s1.setName("Mit");
         s1.setAge(22);
-        s1.setGrnder("Male");
+        s1.setGender("Male");
         s1.setHeight(180);
         System.out.println(s1.toString());
 
@@ -34,7 +35,7 @@ public class studentApp {
         System.out.print("Age : ");
         s.setAge(Integer.parseInt(reader.readLine()));
         System.out.print("Gender : ");
-        s.setGrnder(reader.readLine());
+        s.setGender(reader.readLine());
         System.out.print("Height :");
         s.setHeight(Double.parseDouble(reader.readLine()));
         return s;
@@ -49,7 +50,7 @@ public class studentApp {
         System.out.print("Age : ");
         s.setAge(sc.nextInt());
         System.out.print("Gender : ");
-        s.setGrnder(sc.nextLine());
+        s.setGender(sc.nextLine());
         System.out.print("Height : ");
         s.setHeight(sc.nextInt());
         return s;

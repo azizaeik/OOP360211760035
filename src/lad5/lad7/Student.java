@@ -1,4 +1,4 @@
-package lab7;
+package lad7;
 
 public  class Student {
     //properties of student class
